@@ -1,0 +1,157 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: black;
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.5;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+/* ====================== Header ======================= */
+
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  margin-right: 10px;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: seashell;
+}
+
+.header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* ====================== Our Mission ======================  */
+
+.mission {
+  display: flex;
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+  margin-bottom: 50px;
+}
+
+.mission h2, .mission h4 {
+  padding: 10px;
+}
+
+/* ================= Tea of the Month ========================  */
+
+.month {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.month h2, .month h4 {
+  padding: 10px;
+}
+
+.little {
+  text-align: center;
+}
+
+.little img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.three {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.two {
+  display: flex;
+  width: 650px;
+  justify-content: space-between;
+}
+
+  /* ================ Location =============== */
+
+.location {
+  display: flex;
+  flex-direction: column;
+  background-position: 100% 21%;
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px;
+  height: 250px;
+  width: 300px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+  margin-top: 0;
+  margin-bottom: 100px;
+}
+
+.location h2 {
+  background-color: inherit;
+  padding-bottom: 15px;
+}
+/* ============== Footer ===============  */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 190px;
+  padding-top: 10px;
+}
+
+#copy {
+  text-align: left;
+  width: 100%;
+  margin-left: 20px;
+}
